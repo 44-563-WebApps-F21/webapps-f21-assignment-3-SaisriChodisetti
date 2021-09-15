@@ -47,32 +47,59 @@
     <a href=aboutme.html> Click Here for AboutMe </a>
 
     <hr>
-        <h3>Food I would recommend </h3>
-        
-        If someone wants to know which food makes me happy and try the things which I do go and check the below table.
-        
-        <table>
-            <tr>
-                <th>Food</th>
-                <th> Location</th>
-                <th>Amount</th>
-            </tr>
-            <tr>
-                <td> Lemon Rice </td>
-                <td> India </td>
-                <td> 10 </td>
-            </tr>
-            <tr> 
-                <td> Biryani </td>
-                <td> Hyderabad </td>
-                <td> 40 </td>
-            </tr>
-            <tr> 
-                <td> Kaju Barfi </td>
-                <td> Kakainda </td>
-                <td> 30 </td>
-            </tr>
-        </table>
+    <h3>Food I would recommend </h3>
+
+    If someone wants to know which food makes me happy and try the things which I do go and check the below table.
+
+    <table>
+        <tr>
+            <th>Food</th>
+            <th> Location</th>
+            <th>Amount</th>
+        </tr>
+        <tr>
+            <td> Lemon Rice </td>
+            <td> India </td>
+            <td> 10 </td>
+        </tr>
+        <tr>
+            <td> Biryani </td>
+            <td> Hyderabad </td>
+            <td> 40 </td>
+        </tr>
+        <tr>
+            <td> Kaju Barfi </td>
+            <td> Kakainda </td>
+            <td> 30 </td>
+        </tr>
+    </table>
+
+    <hr>
+    <h3> Algorithm - Code Fencing </h3>
+    <h4> String-hashing. </h4>
+    <blockquote>String hashing is the way to convert a string into an integer known as a hash of that string.An ideal
+        hashing is the one in which there are minimum chances of collision (i.e 2 different strings having the same
+        hash.
+    </blockquote>
+
+    <a href=https://www.geeksforgeeks.org/string-hashing-using-polynomial-rolling-hash-function/> Algorithm Explanation :</a>
+
+    <pre>
+            pair<int, int> fib (int n) {
+                if (n == 0)
+                    return {0, 1};
+            
+                auto p = fib(n >> 1);
+                int c = p.first * (2 * p.second - p.first);
+                int d = p.first * p.first + p.second * p.second;
+                if (n & 1)
+                    return {d, c + d};
+                else
+                    return {c, d};
+            }
+        </pre>
+    <a href=https://cp-algorithms.com/algebra/fibonacci-numbers.html> algoritham link </a>
+
 
 
 </body>
